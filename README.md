@@ -1,2 +1,17 @@
 # Atrasando-o-tempo
 Atrasando o tempo
+
+<script type="text/javascript">
+
+function timeMsg(){
+	var t=setTimeout("alertMsg()",3000);
+}
+
+function alertMsg(){
+	document.write("Terminal Root");
+}
+
+</script>
+
+
+<a href="#" onClick="timeMsg()">Clique aqui a mensagem só aparecerá depois de 3 segundos</a>
